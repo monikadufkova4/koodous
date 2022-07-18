@@ -1,0 +1,1 @@
+41 6-20 * * *  python3 /app/apks.py >>/app/apks.log 2>/app/apks.log
