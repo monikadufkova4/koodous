@@ -18,5 +18,5 @@ RUN chmod +x apks.py
 
 RUN crontab /app/cron
 
-#CMD crond && tail -f /app/apks.log
-#CMD crond && tail -f /app/result.csv
+CMD crond && tail -f /app/apks.log
+CMD crond && tail -f /app/result.csv
